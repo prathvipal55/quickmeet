@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body{
+  background-color: #c0c5c9;
+  height: 80px;
+  
+}
 * {
   text-decoration: none;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding:0px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -32,14 +37,13 @@
   -o-user-select: none;
   user-select: none;
 }
-
 img {
   max-width: 100%;
 }
 
-body {
+/* body {
   background-color: #ffffff;
-}
+} */
 
 navbar .logo {
   font-size: 28px;
@@ -48,11 +52,10 @@ navbar .logo {
   padding: 0 12%;
   margin-top: 32px;
 }
-
 .main {
   display: flex;
   padding: 0 12%;
-  margin-top: 20vh;
+  margin-top: 10vh;
   width: 100%;
 }
 .main .create-join {
@@ -72,38 +75,16 @@ navbar .logo {
 .main .create-join .createroom-butt {
   width: 100%;
   margin-top: 60px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  background-color: #4ecca3;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding: 10px 20px;
   border: none;
-  border-radius: 10px;
-  border: 2px solid #4ecca3;
+  border-radius: 15px;
+  border: 2px solid #41c436;
   transition: 0.3s;
-}
-.main .create-join .createroom-butt:hover {
-  background-color: white;
-  border: 2px solid #4ecca3;
-  color: #4ecca3;
-  cursor: pointer;
-}
-.main .create-join .createroom-butt:focus {
-  outline: none;
-}
-.main .create-join .createroom-clicked {
-  width: 100%;
-  margin-top: 60px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  background-color: white;
-  border: 2px solid #4ecca3;
-  color: #4ecca3;
 }
 .main .create-join .createroom-clicked:focus {
   outline: none;
@@ -128,6 +109,7 @@ navbar .logo {
   outline: none;
   border-radius: 0;
 }
+
 .main .create-join .roomcode-error {
   border-bottom: 3px solid #d31c1c;
 }
@@ -805,3 +787,4 @@ navbar .logo {
 }
 
 /*# sourceMappingURL=style.css.map */
+
